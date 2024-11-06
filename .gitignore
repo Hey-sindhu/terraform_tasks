@@ -1,2 +1,2 @@
-terraform/*.tfstate
-terraform/*.backup
+task_terraform/*.tfstate
+task_terraform/*.backup
