@@ -2,8 +2,8 @@
 FROM ubuntu:22.04
 
 #To run the commands 
-RUN apt-get update 
-RUN apt-get install -y wget openjdk-17-jdk maven git 
+RUN apt-get update && \
+    apt-get install -y wget openjdk-17-jdk maven git 
 
 #Working directory is to make default dir where I've pom.xml
 WORKDIR /Amazon/Amazon
